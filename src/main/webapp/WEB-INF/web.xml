@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>TimeBeijingServlet</servlet-name>
+    <servlet-class>com.teachmeskills.lesson24.task1.servlet.TimeBeijingServlet</servlet-class>
+  </servlet>s
+  
+  <servlet-mapping>
+    <servlet-name>TimeBeijingServlet</servlet-name>
+    <url-pattern>/beijing</url-pattern>
+  </servlet-mapping>
 </web-app>
